@@ -18,7 +18,12 @@ function usersLeft(){
 // bulding fetch function
 
 fetch(api_url).then((data) => {
-      // console.log(data) 
+    if (data.ok) {
+        console.log ('HTTP request succesful');
+      } else {
+        alert ('Cannot resolve the API call!');
+      }
+    // console.log(data) 
       return data.json();
     }).then((jsondata) => {
 
