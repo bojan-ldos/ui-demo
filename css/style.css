@@ -1,0 +1,17 @@
+h2 {
+    font-size: 2em #000b;
+    font-size: 28px;
+}
+
+h3{
+    font-size: 1.4em;
+}
+.navbar-brand{
+  font-size: 2.2em;  
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropdown-menu .show {
+    right: 1em;
+}
